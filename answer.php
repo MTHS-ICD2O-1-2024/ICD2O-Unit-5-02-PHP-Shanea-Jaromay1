@@ -35,16 +35,15 @@
           // Generate random number
           $randomNumber = random_int(1, 6);
           // input
-          $optionPositive = $_GET["option-positive"];
-          $optionNegative = $_GET["option-negative"];
+          $kindOfNumebr = $_GET["kind-of-number"];
           // process
-          if ($optionPositive == $randomNumber) {
+          if ($kindOfNumebr == "1") {
             // output
             echo "Your random number is: " . $randomNumber . "";
           }
-          if ($optionNegative = $randomNegativeNumber * -1) {
+          else if ($kindOfNumebr == "2") {
             // output 
-            echo "Your random number is: " . $randomNegativeNumber . "";
+            echo "Your random number is: " . (-$randomNumber) . "";
           }
           ?>
         </div>

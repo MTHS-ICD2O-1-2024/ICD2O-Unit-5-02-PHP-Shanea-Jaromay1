@@ -35,11 +35,11 @@
       <form action="./answer.php" method="GET">
         <div class="page-options">
           <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-positive">
-            <input type="radio" name="option-positive" class="mdl-radio__button" name="kind-of-number" value="1" checked>
+            <input type="radio" id="option-positive" class="mdl-radio__button" name="kind-of-number" value="1" checked>
             <span class="mdl-radio__label">Positive</span>
           </label>
           <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-negative">
-            <input type="radio" name="option-negative" class="mdl-radio__button" name="kind-of-number" value="2">
+            <input type="radio" id="option-negative" class="mdl-radio__button" name="kind-of-number" value="2">
             <span class="mdl-radio__label">Negative</span>
           </label>
         </div>
