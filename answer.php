@@ -36,12 +36,13 @@
           $randomNumber = random_int(1, 6);
           // input
           $optionPositive = $_GET["option-positive"];
+          $optionNegative = $_GET["option-negative"];
           // process
           if ($optionPositive == $randomNumber) {
             // output
             echo "Your random number is: " . $randomNumber . "";
           }
-          if ($randomNegativeNumber = $randomNumber * -1) {
+          if ($optionNegative = $randomNegativeNumber * -1) {
             // output 
             echo "Your random number is: " . $randomNegativeNumber . "";
           }
