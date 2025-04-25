@@ -28,7 +28,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/movie_ratings.jpg" alt="movie rating image" />
+        <img src="./images/positive_negative.jpg" alt="positive and negative image" />
       </div>
       <div class="page-content">Select what kind of number you would like.</div>
       <div class="page-content-php"></div>

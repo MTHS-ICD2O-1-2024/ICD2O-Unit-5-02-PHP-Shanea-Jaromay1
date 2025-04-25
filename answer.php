@@ -27,7 +27,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/movie_ratings.jpg" width="250" />
+        <img src="./images/positive_negative.jpg" width="250" />
       </div>
       <div class="page-content-php">
         <div id="generate">
